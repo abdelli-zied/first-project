@@ -4,16 +4,23 @@
 	<meta charset="utf-8">
     
 	<link rel="stylesheet" type="text/css" href="first proj.css">
-	<title> JavaScript - zied To Do List </title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<title> To Do List </title>
 
 </head>
 <body>
-	<h1><span class= "title">Todo zied</span>list zied</h1>
+	<h1 id = "ti"><span> Todo list </span></h1>
 	<div class="inputDiv">
-		<input type="text" class="input" plasceholder="what Do You Want to Do...>"
-		<button class="add"><i class="fas fa-plus"></i></button>
+		<input type="text" class="input" plasceholder="what Do You Want to Do...">
+		<ul>
+			
+		</ul>
+		<button  id="add" onclick="add()"><i> ADD</i></button>
 	</div>
     <div class="container">
+    	<!-- element that will contaun the outputed value from the input -->
     </div>
-<script type="text/javascript" href="zied prj.js" ></script>
+    
+<script type="text/javascript" href="zied.js" ></script>
 </body>
+</html>
